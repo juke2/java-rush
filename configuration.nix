@@ -20,8 +20,8 @@
 
   environment.systemPackages = with pkgs; [
   maven
-  graalvm-ce
   ];
+
 
   wsl.enable = true;
   wsl.defaultUser = "nixos";
