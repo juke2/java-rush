@@ -19,6 +19,7 @@
   ];
 
   environment.systemPackages = with pkgs; [
+  graalvm-ce
   maven
   ];
 
