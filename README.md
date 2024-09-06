@@ -19,8 +19,10 @@ mvn package
 This creates a .jar file which can be run with the following command (again in the java rush directory):
 
 ```
-java -cp target/java-rush-1.0-SNAPSHOT.jar com.mycompany.app.App
+java -cp target/java-rush-1.0-SNAPSHOT.jar com.mycompany.app.App -help
 ```
+
+This will list the avaliable commands. Run -all to run every project.
 
 ## Conways
 
@@ -28,7 +30,7 @@ A version of Conway's Game of Life. To run this program, use the following comma
 
 ```
 
-Not implemented yet!
+java -cp target/java-rush-1.0-SNAPSHOT.jar com.mycompany.app.App -conways
 
 ```
 
@@ -38,7 +40,7 @@ desc. To run this program, use the following command:
 
 ```
 
-Not implemented yet!
+java -cp target/java-rush-1.0-SNAPSHOT.jar com.mycompany.app.App - fibonacci
 
 ```
 
@@ -48,7 +50,7 @@ desc. To run this program, use the following command:
 
 ```
 
-Not implemented yet!
+java -cp target/java-rush-1.0-SNAPSHOT.jar com.mycompany.app.App -mysinh
 
 ```
 
@@ -58,10 +60,6 @@ desc. To run this program, use the following command:
 
 ```
 
-Not implemented yet!
-
-```
-
-```
+java -cp target/java-rush-1.0-SNAPSHOT.jar com.mycompany.app.App -mystats
 
 ```
